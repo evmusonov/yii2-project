@@ -1,0 +1,24 @@
+#User-agent: Yandex
+Disallow: *
+#Disallow: /files
+#Disallow: /img
+#Disallow: /css
+#Disallow: /assets
+#Disallow: /video
+#Disallow: /js
+#Disallow: /fonts
+#Disallow: /rss
+#Host: vadimdesign.ru
+#Sitemap: http://vadimdesign.ru/sitemap.xml
+
+#User-agent: *
+#Disallow: /go
+#Disallow: /files
+#Disallow: /img
+#Disallow: /css
+#Disallow: /assets
+#Disallow: /video
+#Disallow: /js
+#Disallow: /fonts
+#Disallow: /rss
+#Sitemap: http://vadimdesign.ru/sitemap.xml

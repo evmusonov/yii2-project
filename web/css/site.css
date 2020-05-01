@@ -1,0 +1,175 @@
+.product_inside-page{
+    position: relative;
+}
+
+.article-page .articles{
+    padding-top: 100px;
+}
+
+.product_inside-page .duties p{
+    color: #000000;
+}
+
+.company_page .article h1{
+    padding-top: 45px;
+}
+
+.contacts_page .article h1{
+    padding-top: 100px;
+}
+
+.vacancy_page .article p{
+    width: 45%;
+}
+
+.vacancy-inside_page .article h2 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    width: 50%;
+    line-height: 1.4;
+}
+
+.vacancy-inside_page .article p {
+    line-height: 1.6;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.articles-block .slider-content{
+    padding-bottom: 0;
+}
+
+.social-block {
+    margin-top: 10px;
+}
+
+.share_btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: transparent;
+    cursor: pointer;
+}
+
+.share__vk {
+    background-image: url("../img/socail-vk.png");
+}
+
+.share__fb {
+    background-image: url("../img/socail-fb.png");
+}
+
+.share__ok {
+    background-image: url("../img/socail-ok.png");
+}
+
+.share__tw {
+    background-image: url("../img/socail-tw.png");
+}
+
+.share__te {
+    background-image: url("../img/socail-tg.png");
+}
+
+.img-wrapper3 img{
+    width: 100%;
+}
+
+.error_page.container_main .footer-right p{
+    text-align: left;
+}
+
+.img-wrapper_3 img {
+    border-radius: 20px;
+}
+
+.contacts_page input[type=email], input[type=tel], input[type=text]{
+    margin: 5px 0 0px 0;
+}
+
+.img-wrapper3 ul li{
+    width: 100%!important;
+}
+
+.articles-block .block-slides_article {
+    margin-bottom: 80px;
+}
+
+.img-wrapper3 a{
+    color: #4357a0;
+    border-bottom: 1px solid rgba(67, 87, 160, 0.2);
+    transition: all .4s;
+}
+.img-wrapper3 a:hover{
+    color: #4357a0;
+    border-bottom: 1px solid rgb(67, 87, 160);
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.copy-left a{
+    color: #999;
+}
+.copy-left a:hover{
+    text-decoration: none;
+}
+
+.yandex-map {
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.shops-block {
+    margin-top: 50px;
+    column-count: 3;
+    column-gap: 12em;
+    white-space: nowrap;
+}
+
+.active {
+    text-decoration: none;
+    border-top: 3px solid #4357a0;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    padding-top: 8px;
+    margin-top: -10px;
+}
+
+.shop-block {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    .shops-block {
+        column-count: 2;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .shops-block {
+        column-count: 1;
+    }
+    .footer-right img {
+        margin-left: -20px !important;
+    }
+    .active{
+        border: none;
+    }
+}
+
+.footer-right img{
+    height: 1em;
+    margin: 0;
+}

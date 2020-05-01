@@ -1,0 +1,16 @@
+/web/assets
+/web/files
+/runtime
+/vendor
+/complicite.clpprj
+/node_modules/
+/project/
+/source/
+/gulpfile.js
+/package.json
+/yarn.lock
+/.idea
+/web/less
+/package-lock.json
+/smartgrid.js
+/config/db.php

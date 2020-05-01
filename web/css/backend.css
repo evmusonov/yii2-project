@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+a {
+	color: #257AC8;
+}
+
+hr {
+	border-top: none;
+	margin-bottom: 40px;
+}
+
+.paragraph {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+	background: none;
+	padding: 8px 15px 8px 0;
+}
+
+/* End of Breadcrumbs */
+
+
+/* Content */
+nav {
+	font-size: 14px;
+}
+
+.main-menu {
+	margin-top: 5px;
+}
+
+.nav-debug li {
+	max-width: 150px;
+	font-size: 14px;
+}
+
+.nav-debug li a div.row div {
+	line-height: 1.1;
+}
+
+.nav-debug-button {
+	margin-top: 8px;
+}
+
+.container h3 {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.container .table {
+	margin-top: 26px;
+}
+
+.container .table > tbody > tr > td {
+	border: none;
+	vertical-align: middle;
+	padding: 15px;
+}
+
+.container .table > thead > tr > th, .container .table > thead > tr > td {
+	padding: 15px;
+}
+
+.container .table > thead > tr > th {
+	text-align: center;
+	border-bottom: 0;
+}
+
+.container .table > thead > tr > td {
+	border-top: 0;
+}
+
+.container .table thead tr:first-child {
+	background: #F3F3F3;
+}
+
+.container .first-row-white thead tr:first-child {
+	background: #FFFFFF;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background: #F3F3F3;
+}
+
+.table-bordered > tbody > tr > th {
+	border: none;
+	vertical-align: middle;
+}
+
+.table > tbody > tr > th {
+	border-top: none;
+}
+
+.mark-menu-item {
+	background: none;
+	color: #6AB044;
+}
+
+.navbar-inverse {
+    background-color: #051123;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	color: #6AB044;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #6AB044;
+}
+
+.navbar-inverse .nav-debug > li > a:hover {
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #ffffff;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #6AB044;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #6AB044;
+}
+
+.data-table {
+	margin-top: 25px;
+}
+
+.weight-right {
+	text-align: right;
+	padding: 0 !important;
+}
+
+.edit-block {
+	display: none;
+}
+
+.group-img {
+	margin-left: 10px;
+}
+
+.save-panel {
+	position: sticky;
+	top: 60px;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	background: #ffffff;
+	padding: 12px 0 0 0;
+}
+
+.save-panel-checkboxes {
+	padding: 8px 0 0 0;
+}
+
+.status-field {
+	color: #6AB044;
+}
+
+.close-img-button {
+	position: absolute;
+	right: 5px;
+	top: 0;
+	cursor: pointer;
+}
+
+a.thumbnail:hover {
+	border-color: #000000;
+}
+
+.input-file-block {
+	display: none;
+}
+
+.input-file-search {
+	width: 125px;
+	height: 32px;
+	background: #C7C7C7;
+	border-radius: 4px;
+	color: #000000;
+	text-align: center;
+	line-height: 32px;
+	font-family: arial;
+	font-size:13px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.input-file-search:hover {
+	background: #DFDFDF;
+	cursor: pointer;
+}
+
+.input-file-fake {
+	background: transparent;
+	border: 0;
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	padding: 0 8px;
+	width: 150px;
+}
+
+.input-file-block-gallery {
+	display: none;
+}
+
+.input-file-search-gallery {
+	width: 125px;
+	height: 32px;
+	background: #C7C7C7;
+	border-radius: 4px;
+	color: #000000;
+	text-align: center;
+	line-height: 32px;
+	font-family: arial;
+	font-size:13px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.input-file-search-gallery:hover {
+	background: #DFDFDF;
+	cursor: pointer;
+}
+
+.input-file-fake-gallery {
+	background: transparent;
+	border: 0;
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	padding: 0 8px;
+	width: 150px;
+}
+.module-block {
+	margin-top: 30px;
+}
+.checkbox-div label {
+	margin-top: 0;
+}
+/* Buttons */
+.custom-create-button {
+	width: 204px;
+	height: 38px;
+	background: #6AB044;
+	font-size: 16px;
+	padding-top: 5px;
+	border: none;
+}
+.custom-create-button:hover, .custom-create-button:active, .custom-create-button:active:focus, .custom-create-button:focus {
+	background: #488328;
+	border: none;
+}
+.custom-save-button {
+	width: 176px;
+	height: 32px;
+	background: #6AB044;
+	font-size: 13px;
+	border: none;
+}
+.custom-save-button:hover, .custom-save-button:active, .custom-save-button:active:focus, .custom-save-button:focus {
+	background: #488328;
+	border: none;
+}
+.custom-save-button:disabled, .custom-save-button[disabled] {
+	border: none;
+	background: #DFDFDF;
+	color: #7D7D7D;
+}
+.custom-save-button:disabled:hover, .custom-save-button[disabled]:hover {
+	border: none;
+	background: #DFDFDF;
+	color: #7D7D7D;
+}
+.custom-delete-button {
+	color: black;
+	width: 105px;
+	height: 32px;
+	background: none;
+	font-size: 13px;
+	border: none;
+	margin-right: 60px;
+}
+.custom-delete-button:hover, .custom-delete-button:active, .custom-delete-button:active:focus, .custom-delete-button:focus {
+	color: #EB5757;
+	background: none;
+	border: none;
+}
+.custom-copy-button {
+	color: black;
+	width: 105px;
+	height: 32px;
+	background: none;
+	font-size: 13px;
+	border: none;
+	margin-right: 5px;
+}
+.custom-copy-button:hover, .custom-copy-button:active, .custom-copy-button:active:focus, .custom-copy-button:focus {
+	color: #6AB044;
+	background: none;
+	border: none;
+}
+.custom-action-button {
+	margin-left: 15px;
+}
+
+.custom-addblock-button {
+	width: 125px;
+	height: 32px;
+	background: #6AB044;
+	font-size: 13px;
+	border: none;
+	margin-top: 3px;
+}
+.custom-addblock-button:hover, .custom-addblock-button:active, .custom-addblock-button:active:focus, .custom-addblock-button:focus {
+	background: #488328;
+	border: none;
+}
+.custom-addblock-button:disabled, .custom-addblock-button-button[disabled] {
+	border: none;
+	background: #DFDFDF;
+	color: #7D7D7D;
+}
+.custom-addblock-button:disabled:hover, .custom-addblock-button[disabled]:hover {
+	border: none;
+	background: #DFDFDF;
+	color: #7D7D7D;
+}
+
+.custom-save-panel-button {
+	height: 32px;
+	background: #6AB044;
+	font-size: 14px;
+	border: none;
+	margin-top: 3px;
+}
+.custom-save-panel-button:hover, .custom-save-panel-button:active, .custom-save-panel-button:active:focus, .custom-save-panel-button:focus {
+	background: #488328;
+	border: none;
+}
+.custom-save-panel-button:disabled, .custom-save-panel-button[disabled] {
+	border: none;
+	background: #DFDFDF;
+	color: #7D7D7D;
+}
+.custom-save-panel-button:disabled:hover, .custom-save-panel-button[disabled]:hover {
+	border: none;
+	background: #DFDFDF;
+	color: #7D7D7D;
+}
+
+.custom-grey-button {
+	width: 130px;
+	height: 32px;
+	background: #C7C7C7;
+	padding-top: 5px;
+	color: #000000;
+	font-size: 14px;
+	border: none;
+	margin-top: 3px;
+	margin-right: 20px;
+}
+.custom-grey-button:hover, .custom-grey-button:active, .custom-grey-button:active:focus, .custom-grey-button:focus {
+	background: #9D9D9D;
+	color: #000000;
+	border: none;
+}
+/* End of Buttons */
+
+/* Toggle button */
+.toggle {
+	margin: 0 auto 0;
+	position: relative;
+	display: block;
+	width: 38px;
+	height: 16px;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	transform: translate3d(0, 0, 0);
+}
+.toggle:before {
+	content: "";
+	position: relative;
+	left: 3px;
+	height: 15px;
+	width: 32px;
+	top: 0;
+	display: block;
+	background: #9A9999;
+	border-radius: 15px;
+	transition: background 0.2s ease;
+}
+.toggle span {
+	position: absolute;
+	top: 1px;
+	left: 5px;
+	width: 13px;
+	height: 13px;
+	display: block;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 8px rgba(154, 153, 153, 0.5);
+	transition: all 0.2s ease;
+}
+.toggle span:before {
+	content: "";
+	position: absolute;
+	display: block;
+	margin: -18px;
+	width: 56px;
+	height: 56px;
+	background: rgba(79, 46, 220, 0.5);
+	border-radius: 50%;
+	transform: scale(0);
+	opacity: 1;
+	pointer-events: none;
+}
+
+.cbx:checked + .toggle:before {
+	background: #6AB044;
+}
+.cbx:checked + .toggle span {
+	left: 0;
+	background: #ffffff;
+	transform: translateX(20px);
+	transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+	box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+}
+.cbx:checked + .toggle span:before {
+	transform: scale(1);
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+/* End of toggle button */
+
+/* Subcontent */
+.subcontent-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+/* End of Subcontent */
+
+/* Margins */
+.mt-12 {
+	margin-top: 60px;
+}
+.mt-5 {
+	margin-top: 25px;
+}
+.mt-3 {
+	margin-top: 15px;
+}
+.mt-0 {
+	margin-top: 0;
+}
+.ml-10 {
+	margin-left: 10px;
+}
+.clearfix {
+	clear: both;
+}
+/* End of Margins */
+
+/* End of Subcontent */
+
+/* Padding */
+.pt-60 {
+	padding-top: 60px;
+}
+/* End of Padding */
+
+.form-checkbox {
+	margin-top: 50px;
+}
+
+.error-file {
+	color: red;
+}
+
+/* End of Content */
+
+label {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 13px;
+}
+
+.pd-top-25{
+	padding-top: 23px;
+}
+
+.pd-top-35{
+	padding-top: 33px;
+}
+
+.right{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.left{
+	float: left;
+	margin-bottom: 10px;
+}
+
+hr.mrg-5{
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr.mrg-10{
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img.image-icon {
+	height: 40px;
+}
+
+/****************** №, мультидействие *****************/
+tr.filters td:first-child, tr.filters td:nth-child(2){
+	width:30px;
+}
+
+/****************** Actions *****************/
+tr.filters td:last-child{
+	width:90px;
+}
+
+/****************** Active *****************/
+tr.filters td:nth-last-child(2){
+	width:50px;
+}
+
+/****************** Сортировка *****************/
+tr.filters td:nth-last-child(3){
+	width:50px;
+}
+
+.w-300{
+	width: 300px;
+}
+
+.w-250{
+	width: 250px;
+}
+
+.w-200{
+	width: 200px;
+}
+
+.w-150{
+	width: 150px;
+}
+
+.w-100{
+	width: 100px;
+}
+
+.w-80{
+	width: 80px;
+}
+
+.w-50{
+	width: 50px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail .glyphicon.glyphicon-remove {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.redactor-toolbar {
+    background: #eee;
+}
+
+.gall-image-item {
+	border-radius: 5px;
+}
+
+.gall-item {
+	background:#f5f5f5;
+	padding: 5px 10px 5px;
+	margin: 5px 0 5px;
+}
+
+.gall-image-item .thumbnail {
+    margin-bottom: 5px;
+}
+
+.gall-image-item .col-md-3 {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.gall-image-item .col-md-9 {
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.form-group.form-group-mini {
+	margin-bottom: 3px;
+}
+
+.form-group.form-group-mini label {
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+
+.form-group.form-group-mini .form-control {
+    height: 24px;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.table-striped > tbody > tr.treegrid-expanded:nth-of-type(odd) {
+    background-color: #fcf8e3;
+}
+
+tr.treegrid-expanded {
+	background-color: #fcf8e3;
+}
+
+.form-control.grid-input{
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: none;
+	background-image: none;
+	background: inherit;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.form-control.grid-input.middle{
+	width: 200px;
+}
+
+.form-control.grid-input.small{
+	width: 60px;
+	padding-right: 3px;
+}
+
+.form-control.grid-input.right{
+	 text-align: right;
+	 float: right;
+}
+
+.form-control.grid-input.left{
+	text-align: left;
+	float: none;
+}
+
+.form-control.grid-input.center{
+	margin: 0 auto;
+	text-align: left;
+	float: none;
+}
+
+@media (min-width: 992px){
+	.gall-image-item.col-md-2 {
+		width: 18.88666667%;
+	}
+}
+
+.switcher{
+	cursor:pointer;
+}
+
+.nav-pills{
+	background: #f7f6f6;
+}
+
+/*.new-checkbox {*/
+
+/*}*/
+
+/*.status-field label:before {*/
+	/*content: "";*/
+	/*display: inline-block;*/
+	/*width: 16px;*/
+	/*height: 16px;*/
+	/*margin-right: 10px;*/
+	/*background-color: #aaa;*/
+/*}*/
+
+/*.status-field input[type="checkbox"]:checked + .custom-save-panel-button {*/
+	/*background: #000000 !important;*/
+/*}*/
